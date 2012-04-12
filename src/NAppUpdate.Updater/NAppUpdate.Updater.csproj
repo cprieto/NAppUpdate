@@ -131,6 +131,6 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\Updater.exe" "$(SolutionDir)src\NAppUpdate.Framework\Updater"</PostBuildEvent>
+    <PostBuildEvent>copy /y "$(TargetDir)\Updater.exe" "$(SolutionDir)src\NAppUpdate.Framework\Updater"</PostBuildEvent>
   </PropertyGroup>
 </Project>
